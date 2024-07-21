@@ -1,0 +1,101 @@
+question|answer|user_answer
+Wielowarstwowy perceptron (MLP) jest modelem liniowym.|False|
+Funkcja aktywacji ReLU może prowadzić do problemu martwych neuronów w MLP.|True|
+Warstwa wyjściowa MLP zawsze używa funkcji aktywacji ReLU.|False|
+Backpropagation jest algorytmem używanym do trenowania MLP poprzez propagowanie błędu od warstwy wyjściowej do wejściowej.|True|
+MLP może efektywnie rozwiązywać problemy nieliniowe dzięki wielowarstwowej strukturze.|True|
+Dropout jest techniką regularizacji stosowaną w MLP, która polega na losowym wyłączaniu neuronów w czasie treningu.|True|
+Warstwy ukryte w MLP mogą używać funkcji aktywacji sigmoidalnej.|True|
+MLP zawsze osiąga optymalne wyniki bez żadnej techniki regularizacji.|False|
+W MLP warstwa wejściowa nie przetwarza danych wejściowych, a jedynie przekazuje je do warstwy ukrytej.|True|
+Gradient vanishing problem jest bardziej powszechny w MLP z funkcją aktywacji ReLU niż w przypadku funkcji sigmoidalnej.|False|
+MLP może być używany do regresji i klasyfikacji.|True|
+Funkcja strat dla regresji w MLP to zazwyczaj cross-entropy loss.|False|
+Batch normalization może przyspieszyć trening MLP.|True|
+Każdy neuron w warstwie ukrytej MLP jest połączony z każdym neuronem w następnej warstwie.|True|
+MLP są odporne na overfitting bez żadnych dodatkowych technik regularizacji.|False|
+Algorytm SGD (Stochastic Gradient Descent) jest często używany do optymalizacji MLP.|True|
+MLP z jedną warstwą ukrytą może modelować dowolną funkcję ciągłą przy odpowiednio dużej liczbie neuronów.|True|
+MLP może mieć dowolną liczbę warstw wyjściowych.|False|
+W MLP funkcja aktywacji tanh jest zawsze lepsza od ReLU.|False|
+Algorytm backpropagation używa łańcuchowej reguły różniczkowania do aktualizacji wag w MLP.|True|
+Normalizacja wejść nie jest konieczna przed trenowaniem MLP.|False|
+MLP jest specjalnym przypadkiem sieci neuronowej bez wstecznych połączeń.|True|
+MLP mogą używać funkcji aktywacji softmax w warstwie wyjściowej dla problemów klasyfikacyjnych.|True|
+Deep learning jest terminem używanym wyłącznie do opisania MLP.|False|
+Rozkład wag początkowych nie ma wpływu na proces uczenia MLP.|False|
+Dropout powoduje, że w czasie testowania neurony są losowo wyłączane.|False|
+MLP może używać funkcji aktywacji softplus w warstwach ukrytych.|True|
+L2 regularization w MLP polega na dodaniu kwadratu wag do funkcji strat.|True|
+Learning rate w algorytmie SGD powinien być zawsze stały podczas całego procesu trenowania MLP.|False|
+Momentum jest techniką stosowaną w optymalizacji MLP, która przyspiesza konwergencję.|True|
+W MLP każdy neuron w warstwie ukrytej ma ten sam zestaw wag.|False|
+Waga neuronów w MLP są aktualizowane na podstawie gradientu funkcji strat.|True|
+Backpropagation jest metodą opartą na propagacji sygnału w przód.|False|
+MLP z więcej niż jedną warstwą ukrytą jest nazywany perceptronem.|False|
+Algorytm Adam jest często używany do trenowania MLP ze względu na swoje zalety w optymalizacji.|True|
+Liczba neuronów w warstwie ukrytej MLP powinna być zawsze większa niż liczba neuronów w warstwie wejściowej.|False|
+Normalizacja wejść może przyspieszyć konwergencję w MLP.|True|
+Funkcja aktywacji w warstwie wyjściowej dla problemów regresyjnych w MLP to zazwyczaj softmax.|False|
+MLP jest narażony na problem eksplodujących gradientów.|True|
+W MLP, jeżeli funkcja aktywacji ReLU zostanie użyta we wszystkich warstwach, model będzie bardziej narażony na problem eksplodujących gradientów.|False|
+Funkcja aktywacji softmax jest używana w MLP do konwersji wyjść do postaci prawdopodobieństw.|True|
+W MLP funkcje aktywacji w różnych warstwach mogą być różne.|True|
+MLP jest typem sieci neuronowej jednowarstwowej.|False|
+Funkcja aktywacji tanh w MLP skaluje wyjście neuronu do zakresu [0, 1].|False|
+Dropout może być stosowany tylko w warstwach ukrytych MLP.|False|
+Regularization techniques like L1 and L2 are used MLP to reduce overfitting.|True|
+Wszystkie neurony w MLP muszą używać tej samej funkcji aktywacji.|False|
+Learning rate decay a technique used to gradually decrease the learning rate during training of MLP.|True|
+W MLP funkcja aktywacji softplus jest nieliniowa.|True|
+Dropout increases the computational cost during training of MLP.|False|
+Backpropagation updates the weights MLP by using the chain rule for differentiation.|True|
+MLP cannot solve linearly inseparable problems.|False|
+Activation functions MLP are applied element-wise to the output of each layer.|True|
+In MLP, the hidden layers transform the input data into a higher-dimensional space.|True|
+The bias term MLP not updated during backpropagation.|False|
+MLP can use dropout regularization the input layer.|True|
+A common issue with MLPs the vanishing gradient problem, particularly with tanh and sigmoid activation functions.|True|
+MLPs are typically trained using batch gradient descent.|False|
+In MLP, the learning rate must always be small to ensure convergence.|False|
+The cross-entropy loss function used for classification tasks MLP.|True|
+Weight initialization MLPs can impact the speed and success of the training process.|True|
+MLP cannot be used for multiclass classification problems.|False|
+ReLU activation function can cause dead neurons MLP.|True|
+Weight sharing a common practice MLPs.|False|
+The output layer of MLP for regression problems typically uses no activation function or a linear activation function.|True|
+MLP requires labeled data for supervised learning tasks.|True|
+In MLP, the sigmoid activation function can lead to gradient saturation problems.|True|
+The softmax activation function used MLPs for binary classification problems.|False|
+An epoch MLP training consists of one forward and backward pass of all the training samples.|True|
+In MLP, the weights are adjusted to minimize the loss function.|True|
+Dropout can be applied during the inference phase MLP.|False|
+L1 regularization MLP promotes sparsity of the weight matrix.|True|
+MLPs are highly sensitive to the choice of hyperparameters.|True|
+In MLP, batch normalization applied after the activation function.|False|
+MLP can be considered as a universal approximator.|True|
+The activation function tanh MLP scales outputs to the range [-1, 1].|True|
+MLP can handle both linear and non-linear separable data.|True|
+The choice of activation function MLP does not affect the training process.|False|
+MLP a type of recurrent neural network.|False|
+MLPs are particularly well-suited for time series prediction without any modification.|False|
+In MLP, the derivative of the activation function used backpropagation.|True|
+A small learning rate can slow down the training of MLP but helps avoiding overshooting the minimum.|True|
+Batch normalization helps reducing internal covariate shift MLPs.|True|
+Dropout a technique used to increase the complexity of MLP.|False|
+Overfitting not a concern MLP when using a large number of neurons hidden layers.|False|
+In MLP, vanishing gradient problem occurs more frequently with sigmoid and tanh activation functions compared to ReLU.|True|
+MLP cannot be trained using unsupervised learning techniques.|True|
+Dropout helps to prevent overfitting by increasing the variance of the model.|False|
+MLPs can only approximate linear functions.|False|
+Regularization methods like dropout and L2 regularization are used to improve the generalization of MLP.|True|
+The input to an MLP can be of variable length.|False|
+Early stopping a technique used to prevent overfitting MLP.|True|
+The ReLU activation function MLP can output negative values.|False|
+Batch gradient descent more commonly used than stochastic gradient descent for training MLPs.|False|
+The output of the softmax function MLP sums to 1.|True|
+Weight decay another term for L2 regularization MLPs.|True|
+An MLP with no hidden layers equivalent to a linear regression model.|True|
+MLPs cannot be used for tasks involving image data.|False|
+Gradient clipping can be used to mitigate the exploding gradient problem MLPs.|True|
+In MLP, each neuron applies a linear transformation followed by a nonlinear activation function to its input.|True|

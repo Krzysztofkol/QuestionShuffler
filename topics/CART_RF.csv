@@ -1,0 +1,101 @@
+question|answer|user_answer
+(An Introduction to Statistical Learning). In a decision tree, pruning is used to increase the complexity of the tree to avoid overfitting.|False|
+(An Introduction to Statistical Learning). Random forests use bootstrap aggregating (bagging) to reduce variance and improve model accuracy.|True|
+(An Introduction to Statistical Learning). The Gini impurity is used to measure the purity of a node in a regression tree.|False|
+(An Introduction to Statistical Learning). In random forests, the number of features to consider for splitting at each node is a hyperparameter that can be tuned.|True|
+(An Introduction to Statistical Learning). Decision trees naturally handle missing data without the need for imputation.|True|
+(An Introduction to Statistical Learning). Random forests can only be used for classification tasks, not for regression.|False|
+(An Introduction to Statistical Learning). Feature importance in a random forest is typically calculated using the mean decrease in impurity.|True|
+(An Introduction to Statistical Learning). A single decision tree model generally has higher variance compared to a random forest model.|True|
+(An Introduction to Statistical Learning). In random forests, trees are grown by selecting a random subset of the training data with replacement.|True|
+(An Introduction to Statistical Learning). Bagging involves fitting multiple models independently and then averaging their predictions.|True|
+(An Introduction to Statistical Learning). The process of splitting nodes in a decision tree is always deterministic and does not involve any randomness.|False|
+(An Introduction to Statistical Learning). Pruning a decision tree can help to prevent overfitting by removing nodes that provide little predictive power.|True|
+(An Introduction to Statistical Learning). The maximum depth of a decision tree is a hyperparameter that can significantly impact model performance.|True|
+(An Introduction to Statistical Learning). Random forests can provide an estimate of the generalization error without needing a separate validation set.|True|
+(An Introduction to Statistical Learning). In decision trees, the entropy criterion is used only for regression tasks.|False|
+(An Introduction to Statistical Learning). A decision tree's leaf nodes represent the final output of the model.|True|
+(An Introduction to Statistical Learning). Random forests use decision trees that are unpruned and of maximum depth.|True|
+(An Introduction to Statistical Learning). In random forests, each tree is built using a different subset of features to encourage diversity among the trees.|True|
+(An Introduction to Statistical Learning). Decision trees are robust to outliers in the input data.|False|
+(An Introduction to Statistical Learning). The splitting criterion in a decision tree can be based on either the Gini index or entropy for classification tasks.|True|
+(An Introduction to Statistical Learning). Ensemble methods like random forests typically suffer from high bias.|False|
+(An Introduction to Statistical Learning). Bootstrap samples used in random forests contain about 63.2% of the original training data.|True|
+(An Introduction to Statistical Learning). Decision trees can naturally handle non-linear relationships between features and the target variable.|True|
+(An Introduction to Statistical Learning). A random forest with a single tree is equivalent to a decision tree.|True|
+(An Introduction to Statistical Learning). Random forests are susceptible to overfitting when too many trees are used.|False|
+(An Introduction to Statistical Learning). In decision trees, the split that minimizes the chosen impurity measure is selected.|True|
+(An Introduction to Statistical Learning). Random forests improve model accuracy by reducing the bias of individual decision trees.|False|
+(An Introduction to Statistical Learning). Decision trees always produce unique models regardless of the dataset.|False|
+(An Introduction to Statistical Learning). Random forests typically perform feature selection automatically.|True|
+(An Introduction to Statistical Learning). Decision trees require feature scaling to perform well.|False|
+(An Introduction to Statistical Learning). Overfitting is a common issue with deep decision trees.|True|
+(An Introduction to Statistical Learning). Random forests provide a measure of variable importance.|True|
+(An Introduction to Statistical Learning). Decision trees can only handle binary classification problems.|False|
+(An Introduction to Statistical Learning). Increasing the number of trees in a random forest beyond a certain point continues to improve performance significantly.|False|
+(An Introduction to Statistical Learning). The out-of-bag error estimate in random forests is an unbiased estimate of the test error.|True|
+(An Introduction to Statistical Learning). Pruning a decision tree involves removing nodes that lead to a decrease in the cross-validation error.|True|
+(An Introduction to Statistical Learning). Random forests do not require any tuning of hyperparameters to perform well.|False|
+(An Introduction to Statistical Learning). In decision trees, each internal node corresponds to a decision based on a single feature.|True|
+(An Introduction to Statistical Learning). Random forests can handle large datasets efficiently by parallelizing the construction of trees.|True|
+(An Introduction to Statistical Learning). In random forests, the trees are fully grown without pruning to reduce variance.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees tend to have high bias and low variance.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests use bagging to reduce the variance of the model predictions.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The Gini index and entropy are two commonly used criteria for splitting nodes in regression trees.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). In random forests, feature importance is derived from the average decrease in node impurity over all trees.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees are sensitive to small variations in the training data, which can result in different splits.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The bootstrap sampling method in random forests leads to each tree seeing a different portion of the data.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Pruning a decision tree always results in better performance on unseen data.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests require that all decision trees have the same maximum depth.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Overfitting is less of an issue with random forests compared to single decision trees.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The main advantage of random forests over decision trees is their ability to handle overfitting effectively.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests can automatically detect and handle interactions between features.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees are invariant to monotonic transformations of the input features.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests aggregate the predictions of multiple decision trees to improve accuracy and robustness.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees and random forests are both examples of ensemble learning methods.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests require a separate validation set to tune hyperparameters.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees can be visualized easily, making them interpretable compared to many other machine learning models.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests improve the stability of predictions by combining multiple trees grown on random subsets of data.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The depth of trees in a random forest should be limited to avoid overfitting.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees often require more data preprocessing compared to random forests.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests utilize bagging, which stands for bootstrap aggregation.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The accuracy of a random forest model is highly sensitive to the number of trees used in the ensemble.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees cannot handle multi-class classification problems.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests can handle thousands of input features without feature selection.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). In a random forest, the prediction of the ensemble is the mode of the predictions from individual trees in classification tasks.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees are less interpretable than random forests.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests are robust to noisy data and outliers.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). A decision tree with many deep splits tends to have high bias and low variance.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests can effectively handle missing values in the input data.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees provide confidence intervals for their predictions.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests average the predictions of multiple decision trees to reduce the risk of overfitting.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). In random forests, each tree is built on a bootstrap sample of the data and a random subset of features.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees are susceptible to becoming overly complex if not pruned appropriately.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The primary goal of pruning in decision trees is to reduce bias.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests can produce out-of-bag estimates, which are used to evaluate model performance without a separate test set.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees can be used to estimate the importance of input features.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests always require an equal number of features for each split.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees use a hierarchical approach to make predictions based on the input features.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). In random forests, the correlation between trees is reduced by using random subsets of features for each tree.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees cannot be used for regression tasks.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests can handle imbalanced datasets by adjusting the weight of classes during training.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees split nodes to minimize the total variance in the target variable for regression tasks.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The performance of a random forest decreases if the individual trees are highly correlated.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees are typically faster to train than random forests.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests make use of ensemble averaging, while boosting methods combine weak learners sequentially.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Random forests are prone to underfitting if the trees are not grown deep enough.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Decision trees can model interactions between features naturally.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The number of features considered for splitting in a random forest is usually greater than the total number of features in the dataset.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). In random forests, the final prediction is obtained by taking the average of predictions from all trees for regression tasks.|True|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). Pruning decision trees is done by removing splits that increase the model's performance on the training set.|False|
+(The Elements of Statistical Learning: Data Mining, Inference, and Prediction). The trees in a random forest are independent of each other.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). In random forests, each tree is built using a unique subset of the features.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Random forests use feature bagging to reduce the correlation between trees.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Decision trees require more computational resources to train compared to random forests.|False|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). In decision trees, the best split is determined by evaluating all possible splits for all features.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Random forests can perform well with little hyperparameter tuning.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Decision trees are always more accurate than linear models for any given dataset.|False|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Random forests can be parallelized to speed up training.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Decision trees can handle both categorical and numerical data without any transformation.|True|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). Random forests are highly sensitive to the choice of hyperparameters.|False|
+(Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow). The depth of the trees in a random forest is typically the same for all trees.|False|
